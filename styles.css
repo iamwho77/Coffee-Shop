@@ -1,0 +1,45 @@
+.container{ 
+    
+    height:  auto;
+    width: 98vw;
+    border: 1px solid black ; 
+}
+ .right-side{
+    display: flex;
+    flex-direction: row;
+     
+    justify-content: end;
+
+    
+    
+ }
+ a{
+    
+    margin: 0 20px;
+    text-decoration: none;
+ }
+
+ .nav
+ { 
+    display:  flex;
+    justify-content:space-between;
+   
+    font-size: 20px;
+    background-color: aqua;
+
+ }
+ .t{ 
+    margin: 10px 10px ;
+    padding: 5px;
+ }
+
+ .image{ 
+   height: 600px;
+   width: 600px;
+   background-size: contain;
+ }
+
+ .main{ 
+   display: flex ;
+   justify-content: row;
+ }
