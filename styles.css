@@ -7,10 +7,6 @@
  .right-side{
     display: flex;
     flex-direction: row;
-     
-    justify-content: end;
-
-    
     
  }
  a{
@@ -42,4 +38,13 @@
  .main{ 
    display: flex ;
    justify-content: row;
+ }
+
+ .image{
+   height: 300px;
+   width: 300px ;
+ }
+
+ .img-container{
+   
  }
