@@ -1,3 +1,10 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
 .container{ 
     
     height:  auto;
@@ -18,10 +25,11 @@
  .nav
  { 
     display:  flex;
-    justify-content:space-between;
+    justify-content:space-around;
    
     font-size: 20px;
     background-color: aqua;
+    flex-wrap: wrap;
 
  }
  .t{ 
@@ -41,10 +49,32 @@
  }
 
  .image{
-   height: 300px;
-   width: 300px ;
+   height: 50vh;
+
+   width:50vh  ;
  }
 
- .img-container{
+@media (max-width:500px) {
+   .image{
+      height: 20vh;
    
- }
+      width:20vh  ;
+    }
+}
+
+.main1{
+   display: flex;
+
+}
+
+.desc-container{
+   width: 60%;
+   margin: auto;
+   background-color: aquamarine;
+   height: 80%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+ 
